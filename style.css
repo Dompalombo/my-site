@@ -499,7 +499,7 @@ img{
 .portfolio-title{
     font-size: var(--h3-font-size);
     color: var(--first-color);
-    margin: var(--mb-2);
+    margin: var(--mb-2) 0;
 }
 .portfolio-content:hover{
     box-shadow: 0 6px 8px rgba(174,190,205,.4);
