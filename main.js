@@ -1,3 +1,24 @@
+/* LANGUAGES */
+
+import Translator from "./translator.js";
+
+var translator = new Translator({
+    persist: false,
+    languages: ["fr", "en", "tr"],
+    defaultLanguage: "fr",
+    detectLanguage: true,
+    filesLocation: "./languages"
+});
+
+translator.load();
+
+document.querySelector("form").addEventListener("click", function(evt) {
+    if (evt.target.tagName === "INPUT") {
+        translator.load(evt.target.value);
+    }
+});
+
+
 /* on/off MENU */
 const showMenu = (toggleId,navId) =>{
     const toggle = document.getElementById(toggleId),

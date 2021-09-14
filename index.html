@@ -1,23 +1,16 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Site perso - Domany Palombo</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
         <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
 
+    <body>
+        
 
         <!-- === scroll top === -->
         <a href="#" class="scrolltop" id="scroll-top">
@@ -26,16 +19,36 @@
         <!-- === End scroll top === -->
 
         <header class="l-header" id="header">
+            <form>
+                <fieldset>
+                    <legend>Choose a language:</legend>
+                    <label>
+                        <input type="radio" name="lang" value="fr" checked /> French
+                    </label>
+
+                    <label>
+                        <input type="radio" name="lang" value="en" /> English
+                    </label>
+
+                    <label>
+                        <input type="radio" name="lang" value="tr" /> Turk
+                    </label>
+                </fieldset>
+            </form>
+
             <nav class="nav bd-container">
                 <a href="#home" class="nav-logo">Site personnel - Domany Palombo</a>
 
                 <div class="nav-menu" id="nav-menu">
+
                     <ul class="nav-list">
-                        <li class="nav-item"><a class="nav-link active-link" href="#home">Accueil</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">A propos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#services">Mes services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+
+                        <li class="nav-item"><a data-i18n="nav.home" class="nav-link active-link" href="#home">Accueil</a></li>
+                        <li class="nav-item"><a data-i18n="nav.about" class="nav-link" href="#about">A propos</a></li>
+                        <li class="nav-item"><a data-i18n="nav.services" class="nav-link" href="#services">Mes services</a></li>
+                        <li class="nav-item"><a data-i18n="nav.portfolio" class="nav-link" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a data-i18n="nav.contact" class="nav-link" href="#contact">Contact</a></li>
+
                     </ul>
                 </div>
                 <div class="nav-toggle" id="nav-toggle">
@@ -230,6 +243,6 @@
 
 
         <script src="mixitup.min.js"></script>
-        <script src="main.js"></script>
+        <script type="module" src="main.js"></script>
     </body>
 </html>
