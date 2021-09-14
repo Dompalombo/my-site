@@ -378,7 +378,7 @@ img{
     .about-description{
         text-align: initial;
     }
-    .about-description span{
+    .about-data span{
         font-size: var(--h2-font-size);
         font-weight:var(--font-semi-bold);
         color: var(--first-color);

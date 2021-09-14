@@ -1,10 +1,57 @@
 {
-    "title": "How To Cook A Juicy Chicken Breast",
-    "content": "There’s a big difference between juicy chicken breasts and rubbery chicken breasts. Obviously, you want to avoid the latter at all costs. Follow these 4 steps and you’re gold. You want to add protein to favorites like Caesar salad or fix up a quick chicken salad or club sandwich? Try this method and savor the results.",
-    "ingredients": {
-        "title": "Ingredients",
-        "$0": "1 pound boneless chicken breasts",
-        "$1": "2 teaspoons olive oil",
-        "$2": "salt and pepper"
+    "nav":{
+        "home": "Ev",
+        "about": "İthafen",
+        "services": "Hizmetler",
+        "portfolio": "Portföy",
+        "contact": "Temas"
+    },
+    "home":{
+        "greeting": "Merhaba benim adım",
+        "job": "Web developer",
+        "cv": "Özgeçmişi İndir"
+    },
+    "about":{
+        "subtitle": "Benim geçmişim - Benim becerilerim",
+        "title": "Benim hakkımda",
+        "subdesc": "Merhaba ben",
+        "desc": "Serbest çalışan bir web geliştiricisi olarak kod, yaratıcılık ve web geliştirme dünyası konusunda tutkuluyum. Tamamen kendi kendini yetiştirmiş ve profesyonel yeniden eğitimden kaynaklanan, amacımı ve bana önereceğiniz görevi yerine getireceğim. "
+    },
+    "services":{
+        "subtitle": "amacım ne",
+        "title": "Hizmetler",
+        "title1": "Geliştirme ağı",
+        "desc": "Ana hizmetim ve sunduğum iş, tasarım maketiniz olsun ya da olmasın her türlü siteyi sağlıyorum.",
+        "button": "Daha fazla bilgi"
+    },
+    "project":{
+        "title": "Akılda kalan proje",
+        "desc": "Projenizi gerçekleştirmek için beni işe alın",
+        "button": "Beni işe al"
+    },
+    "portfolio":{
+        "subtitle": "son çalışmalarım",
+        "title": "Portföy",
+        "all": "Tüm",
+        "web": "ağ",
+        "soon": "Yakın zamanda",
+
+            "data":{
+                "subtitle0": "Geliştirme ağı",
+                "title0": "Bir tasarım modelinden gerçekleştirme",
+                "button0": "Detayları göster",
+
+                "subtitle1": "Yakın zamanda",
+                "title1": "Yeni proje yakında - web entegrasyonu",
+                "button1": "Detayları göster"
+            }
+    },
+    "contact":{
+        "subtitle": "Kişiye özel proje için",
+        "title": "Bana ulaşın",
+        "localisation": "Fransa",
+        "phone": "Telefon",
+        "email": "E-posta",
+        "chat": "Sohbet etmek"
     }
 }

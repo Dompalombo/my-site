@@ -1,6 +1,4 @@
 {
-    "title": "How To Cook A Juicy Chicken Breast",
-    "content": "There’s a big difference between juicy chicken breasts and rubbery chicken breasts. Obviously, you want to avoid the latter at all costs. Follow these 4 steps and you’re gold. You want to add protein to favorites like Caesar salad or fix up a quick chicken salad or club sandwich? Try this method and savor the results.",
     "nav":{
         "home": "Accueil",
         "about": "A propos",
@@ -8,10 +6,52 @@
         "portfolio": "Portfolio",
         "contact": "Contact"
     },
-    "ingredients": {
-        "title": "Ingredients",
-        "$0": "1 pound boneless chicken breasts",
-        "$1": "2 teaspoons olive oil",
-        "$2": "salt and pepper"
+    "home":{
+        "greeting": "Bonjour, je m'appelle",
+        "job": "Développeur web",
+        "cv": "Télécharger CV"
+    },
+    "about":{
+        "subtitle": "Mon histoire - Mes compétences",
+        "title": "A propos de moi",
+        "subdesc": "Bonjour, je suis",
+        "desc": "Developpeur web en freelance, je suis passionné du code, de la créativité, et de l'univers du developpement web. Complétement autodidacte et issu de reconversion professionelle, je remplirais à bien mon objectif et la mission que vous me proposerez. "
+    },
+    "services":{
+        "subtitle": "Ce que je propose",
+        "title": "Services",
+        "title1": "Dévelopement web",
+        "desc": "Mon principal service et travail que je propose, je fourni tout type de site, que vous ayez ou non une maquette design.",
+        "button": "En savoir plus"
+    },
+    "project":{
+        "title": "Projets en tête",
+        "desc": "Contactez moi pour réaliser vos projets",
+        "button": "Contactez moi"
+    },
+    "portfolio":{
+        "subtitle": "Mes récentes réalisations",
+        "title": "Portfolio",
+        "all": "Tout",
+        "web": "Web",
+        "soon": "Prochainement",
+
+            "data":{
+                "subtitle0": "Dévelopement web",
+                "title0": "Réalisation à partir d'une maquette design",
+                "button0": "Voir les détails",
+
+                "subtitle1": "soon",
+                "title1": "Nouveau projet à venir - integration web",
+                "button1": "Voir les détails"
+            }
+    },
+    "contact":{
+        "subtitle": "Pour un projet personnalisé",
+        "title": "Contactez moi",
+        "localisation": "France",
+        "phone": "Téléphone",
+        "email": "Email",
+        "chat": "Chat"
     }
 }

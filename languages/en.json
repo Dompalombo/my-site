@@ -1,6 +1,4 @@
 {
-    "title": "How To Cook A Juicy Chicken Breast",
-    "content": "There’s a big difference between juicy chicken breasts and rubbery chicken breasts. Obviously, you want to avoid the latter at all costs. Follow these 4 steps and you’re gold. You want to add protein to favorites like Caesar salad or fix up a quick chicken salad or club sandwich? Try this method and savor the results.",
     "nav":{
         "home": "Home",
         "about": "About",
@@ -8,10 +6,52 @@
         "portfolio": "Portfolio",
         "contact": "Contact"
     },
-    "ingredients": {
-        "title": "Ingredients",
-        "$0": "1 pound boneless chicken breasts",
-        "$1": "2 teaspoons olive oil",
-        "$2": "salt and pepper"
+    "home":{
+        "greeting": "Hello, my name is",
+        "job": "Web developer",
+        "cv": "Download CV"
+    },
+    "about":{
+        "subtitle": "My history - My skills",
+        "title": "About me",
+        "subdesc": "Hello, I am",
+        "desc": "A freelance web developer, I am passionate about code, creativity, and the world of web development. Completely self-taught and resulting from professional retraining, I would fulfill my objective and the mission that you will propose to me. "
+    },
+    "services":{
+        "subtitle": "What i purpose",
+        "title": "Services",
+        "title1": "Development web",
+        "desc": "My main service and work that I offer, I provide any type of site, whether or not you have a design mockup.",
+        "button": "Know more"
+    },
+    "project":{
+        "title": "Project in mind",
+        "desc": "Hire me to realise your project",
+        "button": "Hire me"
+    },
+    "portfolio":{
+        "subtitle": "My recent works",
+        "title": "Portfolio",
+        "all": "All",
+        "web": "Web",
+        "soon": "Soon",
+
+            "data":{
+                "subtitle0": "Development web",
+                "title0": "Realization from a design model",
+                "button0": "Show details",
+
+                "subtitle1": "soon",
+                "title1": "New project soon - web integration",
+                "button1": "Show details"
+            }
+    },
+    "contact":{
+        "subtitle": "For a personalized project",
+        "title": "Contact me",
+        "localisation": "France",
+        "phone": "Phone",
+        "email": "Email",
+        "chat": "Chat"
     }
 }
