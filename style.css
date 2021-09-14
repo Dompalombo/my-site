@@ -159,7 +159,7 @@ img{
     cursor: pointer;
 }
 .show-menu{
-    top: var(--header-height);
+    top: 100px;
 }
 
 .active-link{
@@ -668,5 +668,9 @@ img{
 .about-data{
     margin: auto;
 }
-
+@media screen and (max-width: 768px){
+    .progress-bar{
+        width: 200px;
+    }
+}
 /* END progress bar */
